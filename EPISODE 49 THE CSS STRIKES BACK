@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="cinema-screen">
+<div id="crawl-container">
+<h1>EPISODE 49</h1>
+<h2>THE CSS STRIKES BACK</h2>
+<p>Maidah loved looking at the stars from her bedroom window every night. She had a shiny telescope beside her bed and a notebook filled with drawings of planets, comets, and strange creatures she imagined might live in space. While everyone else was asleep, Maidah would sit by the window, wondering what adventures waited beyond the twinkling stars.
+
+One cold evening, as the moon glowed brightly outside, something unusual happened. Her telescope suddenly began to shake and flash with blue light. Tiny sparks danced around the room, and with a soft beep-beep, a little silver robot appeared on her windowsill.
+
+“Greetings, Maidah!” said the robot in a squeaky voice. “My name is Zippy, and I have travelled across the galaxy to find you.”
+
+Maidah's eyes widened with surprise. “Me? Why would you need me?”
+
+Zippy projected a glowing picture into the air. It showed a beautiful crystal shining like a thousand stars.
+
+“This is the Galaxy Crystal,” explained the robot. “It keeps every star, moon, and planet in the universe glowing brightly. But a terrible shadow monster has stolen it and hidden it away. Without the crystal, the stars will slowly fade into darkness.”
+
+Maidah looked out of her window. She noticed that some of the stars already seemed dimmer than usual.
+
+“We have to get it back!” she said bravely.
+
+At once, the robot pressed a button, and a sleek silver spaceship landed gently in her garden. The door opened with a hiss.
+
+“Your adventure awaits!” said Zippy.
+
+Without hesitation, Maidah climbed aboard. The spaceship zoomed into the sky, leaving a sparkling trail behind it. They flew past colourful nebulae that looked like giant clouds of paint and around enormous rings of floating ice that glittered like diamonds.
+
+Along the way, they met friendly aliens on a tiny blue planet. The aliens gave Maidah a map of the galaxy and wished her good luck.
+
+“Be careful,” warned one of the aliens. “The shadow monster is clever and loves to trick travellers.”
+
+Maidah thanked them and continued her journey. Soon, the spaceship reached a dark and lonely moon. The sky there was grey, and strange rocks covered the ground.
+
+“There!” whispered Zippy.
+
+Sitting beside a cave was the shadow monster. It was enormous, with glowing red eyes and a thick black coat of fur. In its giant hands it held the shining Galaxy Crystal.
+
+Maidah could have tried to fight the monster, but she knew there must be a better way.
+
+She noticed that the monster kept staring at its reflection in a small puddle. An idea popped into her head.
+
+Maidah found a shiny piece of metal and polished it until it became a mirror. Then she walked up to the monster.
+
+“I have brought you a special gift,” she said.
+
+The monster looked surprised.
+
+“A gift? For me?”
+
+“Yes,” said Maidah. “A magic mirror that shows the strongest creature in the entire galaxy.”
+
+The monster eagerly looked into the mirror and smiled proudly at its reflection.
+
+“Why, that's me!” it boomed.
+
+“Of course,” said Maidah. “And a creature as strong and important as you doesn't need to steal a crystal to prove how powerful it is.”
+
+The monster thought carefully. No one had ever spoken kindly to it before.
+
+“You really think I am strong?” it asked quietly.
+
+“I do,” replied Maidah. “But heroes protect the stars instead of hiding them.”
+
+For a long moment, the monster looked at the glowing crystal in its hands. Finally, it sighed and handed it back.
+
+“You are right,” it said. “I only took it because I wanted everyone to notice me.”
+
+Maidah smiled warmly. “Then help me return it, and everyone will remember your kindness instead.”
+
+Together, Maidah, Zippy, and the shadow monster flew to the Crystal Tower at the centre of the galaxy. Maidah carefully placed the Galaxy Crystal back on its golden stand.
+
+At once, a beam of sparkling light shot into the sky. Every star burst into brilliant colour. The planets glowed once more, and the darkness disappeared.
+
+All across the galaxy, aliens cheered and celebrated. Fireworks exploded in the sky, and music filled the air.
+
+“You saved us!” they cried.
+
+The shadow monster smiled for the very first time, and the aliens invited it to join the celebration.
+
+As for Maidah, she was crowned the Young Guardian of the Galaxy and given a silver star-shaped medal. Whenever she looked up at the night sky after that, the stars seemed to twinkle just a little brighter.
+
+And from that day on, Maidah became known throughout the universe as the girl who saved the galaxy.
+
+
+
+
+
+
+THE END
+   </p>
+</div>
+</main>
+
+
+
+
+
+
+
+</body>
+</html>
+:root{
+    --movie-gold: #e5b13a;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+    color: aliceblue;
+}
+#cinema-screen{
+     display: flex;
+     justify-content: center;
+      height: 100vh;
+       perspective: 400px;
+}
+ @keyframes epic-scroll{ 
+0%{
+transform:rotateX(25deg) translateY(100%);
+}
+100%{
+transform: rotateX(25deg)translateY(-200%);
+}
+ }
+ #crawl-container{
+color:var(--movie-gold);
+ animation: epic-scroll
+15s linear infinite;
+ }
